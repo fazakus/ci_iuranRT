@@ -1,0 +1,27 @@
+CRITICAL - 2022-07-01 09:52:41 --> Invalid file: dashboard.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('dashboard.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('dashboard', [], true)
+ 3 APPPATH\Controllers\Page.php(9): view('dashboard')
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Page->dashboard()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-01 10:25:46 --> syntax error, unexpected token "(", expecting identifier or variable or "{" or "$"
+in APPPATH\Views\dashboard.php on line 710.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('dashboard', [], true)
+ 3 APPPATH\Controllers\Page.php(9): view('dashboard')
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Page->dashboard()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-01 10:26:13 --> syntax error, unexpected token "(", expecting identifier or variable or "{" or "$"
+in APPPATH\Views\dashboard.php on line 710.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('dashboard', [], true)
+ 3 APPPATH\Controllers\Page.php(9): view('dashboard')
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Page->dashboard()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()

@@ -1,0 +1,147 @@
+CRITICAL - 2022-07-05 11:29:43 --> Class "App\Models\WargaModel" not found
+in APPPATH\Controllers\Warga.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Warga->index()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-05 11:30:22 --> syntax error, unexpected token "}", expecting "," or ";"
+in APPPATH\Models\ModelWarga.php on line 12.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(261): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Models\\ModelWarga.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(239): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\ModelWarga')
+ 3 APPPATH\Controllers\Warga.php(14): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\ModelWarga')
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Warga->index()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-05 11:30:44 --> Class "App\Models\ModelWarga" not found
+in APPPATH\Controllers\Warga.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Warga->index()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-07-05 11:32:15 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2022-07-05 11:32:15 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 416.
+ 1 SYSTEMPATH\Database\BaseConnection.php(586): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `warga`', [], false)
+ 3 SYSTEMPATH\Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\Warga.php(15): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Warga->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-07-05 11:33:50 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2022-07-05 11:33:50 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 416.
+ 1 SYSTEMPATH\Database\BaseConnection.php(586): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `warga`', [], false)
+ 3 SYSTEMPATH\Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\Warga.php(15): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Warga->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-07-05 11:42:06 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2022-07-05 11:42:06 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 416.
+ 1 SYSTEMPATH\Database\BaseConnection.php(586): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `warga`', [], false)
+ 3 SYSTEMPATH\Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\Warga.php(15): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Warga->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-07-05 11:45:23 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2022-07-05 11:45:23 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 416.
+ 1 SYSTEMPATH\Database\BaseConnection.php(586): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `warga`', [], false)
+ 3 SYSTEMPATH\Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\Warga.php(15): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Warga->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-07-05 11:46:49 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2022-07-05 11:46:49 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 416.
+ 1 SYSTEMPATH\Database\BaseConnection.php(586): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `warga`', [], false)
+ 3 SYSTEMPATH\Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\Warga.php(15): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Warga->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-07-05 11:47:33 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2022-07-05 11:47:33 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 416.
+ 1 SYSTEMPATH\Database\BaseConnection.php(586): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `warga`', [], false)
+ 3 SYSTEMPATH\Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\Warga.php(15): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Warga->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-07-05 11:48:09 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2022-07-05 11:48:09 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 416.
+ 1 SYSTEMPATH\Database\BaseConnection.php(586): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `warga`', [], false)
+ 3 SYSTEMPATH\Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\Warga.php(15): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Warga->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-07-05 11:50:20 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2022-07-05 11:50:20 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 416.
+ 1 SYSTEMPATH\Database\BaseConnection.php(586): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `warga`', [], false)
+ 3 SYSTEMPATH\Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\Warga.php(15): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Warga->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-07-05 11:53:33 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2022-07-05 11:53:34 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 416.
+ 1 SYSTEMPATH\Database\BaseConnection.php(586): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `warga`', [], false)
+ 3 SYSTEMPATH\Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\Warga.php(15): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Warga->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()

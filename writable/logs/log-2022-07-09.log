@@ -1,0 +1,107 @@
+CRITICAL - 2022-07-09 04:15:54 --> syntax error, unexpected token "}"
+in APPPATH\Controllers\Warga.php on line 24.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(261): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Warga.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(239): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Warga')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Warga')
+ 4 SYSTEMPATH\CodeIgniter.php(846): class_exists('\\App\\Controllers\\Warga', true)
+ 5 SYSTEMPATH\CodeIgniter.php(453): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-09 04:16:30 --> Call to undefined function App\Controllers\gb_connect()
+in APPPATH\Controllers\Warga.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(858): App\Controllers\Warga->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-09 04:35:07 --> syntax error, unexpected token ":", expecting "," or ";"
+in APPPATH\Views\datawarga.php on line 38.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('datawarga', [], true)
+ 3 APPPATH\Controllers\Warga.php(17): view('datawarga', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Warga->index()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-09 04:35:34 --> syntax error, unexpected end of file
+in APPPATH\Views\datawarga.php on line 61.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('datawarga', [], true)
+ 3 APPPATH\Controllers\Warga.php(17): view('datawarga', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Warga->index()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-09 04:49:50 --> syntax error, unexpected token "}", expecting ";"
+in APPPATH\Controllers\Warga.php on line 32.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(261): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Warga.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(239): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Warga')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Warga')
+ 4 SYSTEMPATH\CodeIgniter.php(846): class_exists('\\App\\Controllers\\Warga', true)
+ 5 SYSTEMPATH\CodeIgniter.php(453): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-09 04:51:17 --> syntax error, unexpected variable "$result"
+in APPPATH\Controllers\Warga.php on line 51.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(261): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Warga.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(239): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Warga')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Warga')
+ 4 SYSTEMPATH\CodeIgniter.php(846): class_exists('\\App\\Controllers\\Warga', true)
+ 5 SYSTEMPATH\CodeIgniter.php(453): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-09 04:51:54 --> Call to undefined function App\Controllers\gb_connect()
+in APPPATH\Controllers\Warga.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(858): App\Controllers\Warga->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-09 05:05:38 --> Invalid file: addwarga.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('addwarga.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('addwarga', [], true)
+ 3 APPPATH\Controllers\Warga.php(31): view('addwarga', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Warga->addwarga()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-09 05:06:11 --> Call to undefined function bsae_url()
+in APPPATH\Views\datawarga.php on line 40.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('datawarga', [], true)
+ 4 APPPATH\Controllers\Warga.php(17): view('datawarga', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Warga->index()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-09 05:06:28 --> Undefined array key "idWarga"
+in APPPATH\Views\datawarga.php on line 40.
+ 1 APPPATH\Views\datawarga.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "idWarga"', 'APPPATH\\Views\\datawarga.php', 40)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\datawarga.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('datawarga', [], true)
+ 5 APPPATH\Controllers\Warga.php(17): view('datawarga', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Warga->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-09 05:06:43 --> Undefined array key "id_warga"
+in APPPATH\Views\datawarga.php on line 40.
+ 1 APPPATH\Views\datawarga.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_warga"', 'APPPATH\\Views\\datawarga.php', 40)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\datawarga.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('datawarga', [], true)
+ 5 APPPATH\Controllers\Warga.php(17): view('datawarga', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Warga->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-09 05:08:02 --> Invalid file: addwarga.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('addwarga.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('addwarga', [], true)
+ 3 APPPATH\Controllers\Warga.php(31): view('addwarga', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Warga->addwarga()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
