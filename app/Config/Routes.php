@@ -44,10 +44,15 @@ $routes->get('/register', 'Page::register');
 //--------------
 $routes->get('/warga', 'Warga::index');
 $routes->add('/warga/add', 'Warga::addwarga');
-$routes->get('/warga/save', 'Warga::save');
-//$routes->get['edit/:id']='warga/edit';
+$routes->post('/warga/save', 'Warga::save');
 $routes->get('/warga/edit/(:num)', 'Warga::edit/$1');
-$routes->get('/warga/update', 'Warga::update');
+$routes->add('/warga/update/(:num)', 'Warga::update/$1');
+$routes->get('/warga/delete/(:num)', 'Warga::delete/$1');
+
+//--------------
+$routes->get('/iuran', 'Iuran::index');
+$routes->add('/iuran/add', 'Iuran::addiuran');
+$routes->post('/iuran/save', 'Iuran::save');
 
 /*
  * --------------------------------------------------------------------

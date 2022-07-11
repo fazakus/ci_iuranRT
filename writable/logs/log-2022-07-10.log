@@ -1,0 +1,32 @@
+CRITICAL - 2022-07-10 09:41:35 --> syntax error, unexpected end of file
+in APPPATH\Views\editwarga.php on line 66.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('editwarga', [], true)
+ 3 APPPATH\Controllers\Warga.php(75): view('editwarga', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Warga->edit('1')
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-10 10:24:21 --> Undefined array key "noRumah"
+in APPPATH\Views\editwarga.php on line 52.
+ 1 APPPATH\Views\editwarga.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "noRumah"', 'APPPATH\\Views\\editwarga.php', 52)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\editwarga.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('editwarga', [], true)
+ 5 APPPATH\Controllers\Warga.php(75): view('editwarga', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Warga->edit('1')
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-10 10:43:06 --> syntax error, unexpected token "public"
+in APPPATH\Controllers\Warga.php on line 148.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(261): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Warga.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(239): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Warga')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Warga')
+ 4 SYSTEMPATH\CodeIgniter.php(846): class_exists('\\App\\Controllers\\Warga', true)
+ 5 SYSTEMPATH\CodeIgniter.php(453): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')

@@ -75,7 +75,7 @@
             </a>
             <div class="collapse" id="ui-basic">
               <ul class="nav flex-column sub-menu">
-                <li class="nav-item"> <a class="nav-link" href="warga"><i class="mdi mdi-account-multiple" style="color: blue"></i>&nbsp;&nbsp;Data Warga</a></li>
+                <li class="nav-item"> <a class="nav-link" href="<?= base_url('/warga'); ?>"><i class="mdi mdi-account-multiple" style="color: blue"></i>&nbsp;&nbsp;Data Warga</a></li>
                 <li class="nav-item"> <a class="nav-link" href="pages/ui-features/dropdowns.html"><i class="mdi mdi-account-multiple-plus" style="color: green"></i>&nbsp;&nbsp;Tambah Warga</a></li>
               </ul>
             </div>
@@ -159,7 +159,7 @@
           </li>
 
           <li class="nav-item menu-items">
-            <a class="nav-link" href="http://www.bootstrapdash.com/demo/corona-free/jquery/documentation/documentation.html">
+            <a class="nav-link" href="<?= base_url('http://www.bootstrapdash.com/demo/corona-free/jquery/documentation/documentation.html')?>">
               <span class="menu-icon">
                 <i class="mdi mdi-file-document-box"></i>
               </span>

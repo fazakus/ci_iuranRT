@@ -2,49 +2,57 @@
     $this->include('template/headercontent');
 ?>
 
-
 <div class="col-md-6 grid-margin stretch-card">
                 <div class="card">
-                  <div class="card-body">
-                    <h4 class="card-title">Horizontal Form</h4>
-                    <p class="card-description"> Horizontal form layout </p>
-                    <form class="forms-sample">
+                  <div class="card-body"><br><br>
+                    <h4 class="card-title">Tambah Warga</h4>
+                    <p class="card-description"> Silahkan isi data berikut </p>
+                    <form class="forms-sample" action="<?= base_url('warga/save') ?>" method="POST">
                       <div class="form-group row">
-                        <label for="exampleInputUsername2" class="col-sm-3 col-form-label">Email</label>
+                        <label for="nik" class="col-sm-3 col-form-label">NIK</label>
                         <div class="col-sm-9">
-                          <input type="text" class="form-control" id="exampleInputUsername2" placeholder="Username">
+                          <input type="text" class="form-control" required="" name="nik" placeholder="Nomor Induk Kewarganegaraan">
                         </div>
                       </div>
                       <div class="form-group row">
-                        <label for="exampleInputEmail2" class="col-sm-3 col-form-label">Email</label>
+                        <label for="nama" class="col-sm-3 col-form-label">Nama Lengkap</label>
                         <div class="col-sm-9">
-                          <input type="email" class="form-control" id="exampleInputEmail2" placeholder="Email">
+                          <input type="text" class="form-control" required="" name="nama" placeholder="Nama Lengkap">
                         </div>
                       </div>
                       <div class="form-group row">
-                        <label for="exampleInputMobile" class="col-sm-3 col-form-label">Mobile</label>
+                        <label for="kelamin" class="col-sm-3 col-form-label">Jenis Kelamin</label>
                         <div class="col-sm-9">
-                          <input type="text" class="form-control" id="exampleInputMobile" placeholder="Mobile number">
+                          <select name="kelamin" class="form-control" style="color:white">
+                            <option>Pilih Jenis Kelamin</option>
+                            <option value="L">Laki-laki</option>
+                            <option value="P">Perempuan</option>
+                          </select>
                         </div>
                       </div>
                       <div class="form-group row">
-                        <label for="exampleInputPassword2" class="col-sm-3 col-form-label">Password</label>
+                        <label for="alamat" class="col-sm-3 col-form-label">Alamat Rumah</label><br>
                         <div class="col-sm-9">
-                          <input type="password" class="form-control" id="exampleInputPassword2" placeholder="Password">
+                          <input type="text" class="form-control" name="alamat" placeholder="Alamat Rumah">
                         </div>
                       </div>
                       <div class="form-group row">
-                        <label for="exampleInputConfirmPassword2" class="col-sm-3 col-form-label">Re Password</label>
+                        <label for="no_rumah" class="col-sm-3 col-form-label">No Rumah</label>
                         <div class="col-sm-9">
-                          <input type="password" class="form-control" id="exampleInputConfirmPassword2" placeholder="Password">
+                          <input type="text" class="form-control" name="no_rumah" placeholder="No Rumah">
                         </div>
                       </div>
-                      <div class="form-check form-check-flat form-check-primary">
-                        <label class="form-check-label">
-                          <input type="checkbox" class="form-check-input"> Remember me </label>
+                      <div class="form-group row">
+                        <label for="status" class="col-sm-3 col-form-label">Status</label>
+                        <div class="col-sm-9">
+                          <select name="status" class="form-control" style="color:white">
+                            <option value="1" selected>Aktif</option>
+                            <option value="0">Tidak Aktif</option>
+                          </select>
+                        </div>
                       </div>
-                      <button type="submit" class="btn btn-primary mr-2">Submit</button>
-                      <button class="btn btn-dark">Cancel</button>
+                      <button type="submit" class="btn btn-primary mr-2">Save</button>
+                      <button class="btn btn-danger">Cancel</button>
                     </form>
                   </div>
                 </div>

@@ -27,7 +27,20 @@
                               <tbody>
                                 <?php
                                 $no = 1;
-                                if($warga): foreach($warga as $row): ?>
+                                if($warga): foreach($warga as $row): 
+
+                                  if($row['kelamin'] == 'L'){
+                                    $kelamin = 'Laki-laki';
+                                  }else{  
+                                      $kelamin = 'Perempuan';
+                                  }
+
+                                  if($row['status'] == '1'){
+                                      $status = 'Aktif';
+                                  }else{
+                                      $status = 'Tidak Aktif';
+                                  }
+                                ?>
                                 <tr>
                                   <th scope="row"><?php echo $no++; ?></th>
                                   <td><?= $row['nik']; ?></td>
@@ -37,8 +50,8 @@
                                   <td><?= $row['no_rumah'];?></td>
                                   <td><?= $row['status'];?></td>
                                   <td>
-                                    <a href="<?= base_url('warga/edit'.$row['id']); ?>" class="btn btn-info btn-icon-text"><i class="fa fa-pencil"></i> edit</a> &nbsp;&nbsp;
-                                    <a href="<?= base_url('warga/delete'); ?>" class ="btn btn-danger btn-icon-text"><i class="fa fa-trash"></i> Delete</a>
+                                    <a href="<?= base_url('warga/edit/'.$row['id']); ?>" class="btn btn-info btn-icon-text"><i class="fa fa-pencil"></i> edit</a> &nbsp;&nbsp;
+                                    <a href="<?= base_url('warga/delete/'.$row['id']); ?>" class ="btn btn-danger btn-icon-text" onclick="return confirm('Apakah Anda yakin ingin menghapus data ini?')><i class="fa fa-trash"></i> Delete</a>
                                 </td>
                                 </tr>
                                 <?php endforeach; else: ?>
