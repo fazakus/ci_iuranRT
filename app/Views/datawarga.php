@@ -6,7 +6,7 @@
                     <div class="col-lg-12 grid-margin stretch-card">
                       <div class="card">
                         <div class="card-body"><br><br><br>
-                          <h4 class="card-title">Data Warga</h4>
+                          <h4 class="card-title"><?= $title;?></h4>
                           <p class='text-right'>
                             <a href="warga/add" class="btn btn-primary btn-icon-text"><i class="fa fa-plus"></i>Add Data</a>
                           </p>
@@ -15,6 +15,7 @@
                               <thead>
                                 <tr>
                                   <th>#</th>
+                                  <th>ID Warga</th>
                                   <th>NIK</th>
                                   <th>Nama Warga</th>
                                   <th>Jenis Kelamin</th>
@@ -43,6 +44,7 @@
                                 ?>
                                 <tr>
                                   <th scope="row"><?php echo $no++; ?></th>
+                                  <td><?= $row['id']; ?></td>
                                   <td><?= $row['nik']; ?></td>
                                   <td><?= $row['nama'];?></td>
                                   <td><?= $row['kelamin'];?></td>

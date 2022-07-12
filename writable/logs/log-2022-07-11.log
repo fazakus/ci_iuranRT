@@ -469,3 +469,129 @@ in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
  9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
 10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
 11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-11 09:49:22 --> Undefined property: App\Controllers\Iuran::$db
+in APPPATH\Controllers\Iuran.php on line 25.
+ 1 APPPATH\Controllers\Iuran.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Iuran::$db', 'APPPATH\\Controllers\\Iuran.php', 25)
+ 2 SYSTEMPATH\CodeIgniter.php(858): App\Controllers\Iuran->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-11 10:07:41 --> Undefined property: App\Controllers\Iuran::$requset
+in APPPATH\Controllers\Iuran.php on line 40.
+ 1 APPPATH\Controllers\Iuran.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Iuran::$requset', 'APPPATH\\Controllers\\Iuran.php', 40)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Iuran->save()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Iuran))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-07-11 10:11:34 --> Unknown column 'warga_id' in 'where clause'
+CRITICAL - 2022-07-11 10:11:34 --> Unknown column 'warga_id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('select nama from warga where warga_id = 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('select nama from warga where warga_id = 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('select nama from warga where warga_id = 1')
+ 4 APPPATH\Views\dataiuran.php(52): CodeIgniter\Database\BaseConnection->query('select nama from warga where warga_id = 1')
+ 5 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\dataiuran.php')
+ 6 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('dataiuran', [], true)
+ 8 APPPATH\Controllers\Iuran.php(18): view('dataiuran', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Iuran->index()
+10 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Iuran))
+11 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-07-11 10:14:13 --> Unknown column 'warga_id' in 'where clause'
+CRITICAL - 2022-07-11 10:14:13 --> Unknown column 'warga_id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('select nama from warga where warga_id = 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('select nama from warga where warga_id = 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('select nama from warga where warga_id = 1')
+ 4 APPPATH\Views\dataiuran.php(52): CodeIgniter\Database\BaseConnection->query('select nama from warga where warga_id = 1')
+ 5 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\dataiuran.php')
+ 6 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('dataiuran', [], true)
+ 8 APPPATH\Controllers\Iuran.php(18): view('dataiuran', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Iuran->index()
+10 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Iuran))
+11 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-11 10:17:06 --> Undefined array key "warga_id"
+in APPPATH\Views\dataiuran.php on line 52.
+ 1 APPPATH\Views\dataiuran.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "warga_id"', 'APPPATH\\Views\\dataiuran.php', 52)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\dataiuran.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('dataiuran', [], true)
+ 5 APPPATH\Controllers\Iuran.php(18): view('dataiuran', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Iuran->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Iuran))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-11 10:17:33 --> Undefined array key "idIuran"
+in APPPATH\Views\dataiuran.php on line 64.
+ 1 APPPATH\Views\dataiuran.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "idIuran"', 'APPPATH\\Views\\dataiuran.php', 64)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\dataiuran.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('dataiuran', [], true)
+ 5 APPPATH\Controllers\Iuran.php(18): view('dataiuran', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Iuran->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Iuran))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-11 10:19:11 --> Undefined array key "idiuran "
+in APPPATH\Views\dataiuran.php on line 65.
+ 1 APPPATH\Views\dataiuran.php(65): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "idiuran "', 'APPPATH\\Views\\dataiuran.php', 65)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\dataiuran.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('dataiuran', [], true)
+ 5 APPPATH\Controllers\Iuran.php(18): view('dataiuran', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Iuran->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Iuran))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-07-11 10:25:40 --> Unknown column 'warga_id' in 'field list'
+CRITICAL - 2022-07-11 10:25:40 --> Unknown column 'warga_id' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `iuran` (`warga_id`, `tanggal`, `bulan`, `tahun`, `jumlah`, `keterangan`) VALUES (\'2\', \'01\', \'07\', \'2022\', \'200000\', \'test\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `iuran` (`warga_id`, `tanggal`, `bulan`, `tahun`, `jumlah`, `keterangan`) VALUES (\'2\', \'01\', \'07\', \'2022\', \'200000\', \'test\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `iuran` (`warga_id`, `tanggal`, `bulan`, `tahun`, `jumlah`, `keterangan`) VALUES (\'2\', \'01\', \'07\', \'2022\', \'200000\', \'test\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1904): CodeIgniter\Database\BaseConnection->query('INSERT INTO `iuran` (`warga_id`, `tanggal`, `bulan`, `tahun`, `jumlah`, `keterangan`) VALUES (:warga_id:, :tanggal:, :bulan:, :tahun:, :jumlah:, :keterangan:)', [...], false)
+ 5 APPPATH\Models\ModelIuran.php(18): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\Iuran.php(69): App\Models\ModelIuran->add([...])
+ 7 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Iuran->save()
+ 8 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Iuran))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-07-11 10:26:28 --> Unknown column 'warga_id' in 'field list'
+CRITICAL - 2022-07-11 10:26:28 --> Unknown column 'warga_id' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `iuran` (`warga_id`, `tanggal`, `bulan`, `tahun`, `jumlah`, `keterangan`) VALUES (\'2\', \'01\', \'07\', \'2022\', \'200000\', \'test\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `iuran` (`warga_id`, `tanggal`, `bulan`, `tahun`, `jumlah`, `keterangan`) VALUES (\'2\', \'01\', \'07\', \'2022\', \'200000\', \'test\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `iuran` (`warga_id`, `tanggal`, `bulan`, `tahun`, `jumlah`, `keterangan`) VALUES (\'2\', \'01\', \'07\', \'2022\', \'200000\', \'test\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1904): CodeIgniter\Database\BaseConnection->query('INSERT INTO `iuran` (`warga_id`, `tanggal`, `bulan`, `tahun`, `jumlah`, `keterangan`) VALUES (:warga_id:, :tanggal:, :bulan:, :tahun:, :jumlah:, :keterangan:)', [...], false)
+ 5 APPPATH\Models\ModelIuran.php(18): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\Iuran.php(69): App\Models\ModelIuran->add([...])
+ 7 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Iuran->save()
+ 8 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Iuran))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-07-11 10:28:33 --> Column 'id' cannot be null
+CRITICAL - 2022-07-11 10:28:33 --> Column 'id' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `iuran` (`id`, `tanggal`, `bulan`, `tahun`, `jumlah`, `keterangan`) VALUES (NULL, \'01\', \'07\', \'2022\', \'200000\', \'test\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `iuran` (`id`, `tanggal`, `bulan`, `tahun`, `jumlah`, `keterangan`) VALUES (NULL, \'01\', \'07\', \'2022\', \'200000\', \'test\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `iuran` (`id`, `tanggal`, `bulan`, `tahun`, `jumlah`, `keterangan`) VALUES (NULL, \'01\', \'07\', \'2022\', \'200000\', \'test\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1904): CodeIgniter\Database\BaseConnection->query('INSERT INTO `iuran` (`id`, `tanggal`, `bulan`, `tahun`, `jumlah`, `keterangan`) VALUES (:id:, :tanggal:, :bulan:, :tahun:, :jumlah:, :keterangan:)', [...], false)
+ 5 APPPATH\Models\ModelIuran.php(18): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\Iuran.php(69): App\Models\ModelIuran->add([...])
+ 7 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Iuran->save()
+ 8 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Iuran))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')

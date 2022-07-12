@@ -93,7 +93,7 @@
               </a>
             <div class="collapse" id="kas">
               <ul class="nav flex-column sub-menu">
-                <li class="nav-item"> <a class=" nav-link" href="pages/ui-features/buttons.html"><i class="fa-solid fa-money-check-dollar" style="color: blue"></i>&nbsp;&nbsp;Data KAS Warga</a></li>
+                <li class="nav-item"> <a class=" nav-link" href="<?= base_url('/iuran'); ?>"><i class="fa-solid fa-money-check-dollar" style="color: blue"></i>&nbsp;&nbsp;Data Iuran Warga</a></li>
                 <li class="nav-item"> <a class=" nav-link" href="pages/ui-features/dropdowns.html"><i class="fa-solid fa-money-bill-transfer" style="color: green"></i>&nbsp;&nbsp;Tambah Iuran</a></li>
               </ul>
             </div>
