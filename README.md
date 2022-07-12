@@ -9,6 +9,7 @@
 | NIM | 312010001 |
 | Kelas | TI 20 B1 |
 | Link Website | https://fazakus.my.id/public |
+| Dokumentasi | https://github.com/fazakus/ci_iuranRT/blob/main/Faza%20Ardan%20Kusuma%20312010001%20-%20Pemrograman%20Web%20UAS.pdf |
 
 <hr>
 
