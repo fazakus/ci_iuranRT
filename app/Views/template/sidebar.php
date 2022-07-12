@@ -8,7 +8,7 @@
             <span class="nav-link">Dashboard</span>
           </li>
           <li class="nav-item menu-items">
-            <a class="nav-link" href="index.html">
+            <a class="nav-link" href="<?= base_url('/'); ?>">
               <span class="menu-icon">
                 <i class="mdi mdi-speedometer"></i>
               </span>
