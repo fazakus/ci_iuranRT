@@ -62,8 +62,8 @@
               </a>
             <div class="collapse" id="laporan">
               <ul class="nav flex-column sub-menu">
-                <li class="nav-item"> <a class="nav-link" href="pages/ui-features/buttons.html">Data Warga Belum Iuran</a></li>
-                <li class="nav-item"> <a class="nav-link" href="pages/ui-features/dropdowns.html">Data Jumlah Kas</a></li>
+                <li class="nav-item"> <a class="nav-link" href="<?= base_url('/laporan'); ?>">Data Warga Belum Iuran</a></li>
+                <li class="nav-item"> <a class="nav-link" href="<?= base_url('/laporan'); ?>">Data Jumlah Kas</a></li>
               </ul>
             </div>
           </li>

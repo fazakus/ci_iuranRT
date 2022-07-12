@@ -21,4 +21,10 @@ class Page extends BaseController
         return view('register');
     }
 
+    //Function Laporan
+    public function laporan()
+    {
+        return view('laporan');
+    }
+
 } //.end of class Page
