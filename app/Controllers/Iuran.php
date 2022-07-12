@@ -172,7 +172,8 @@ class Iuran extends BaseController
         if($iuran){
             $ModelIuran->delete($idiuran);
             echo ('Data berhasil dihapus');
-            return redirect()->to(base_url('/iuran'));}
+            return redirect()->to(base_url('/iuran'));
+        }
     }
 
 }
