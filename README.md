@@ -8,6 +8,7 @@
 | Nama | Faza Ardan Kusuma |
 | NIM | 312010001 |
 | Kelas | TI 20 B1 |
+| Link Website | https://fazakus.my.id/public |
 
 <hr>
 
